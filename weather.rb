@@ -19,6 +19,8 @@ end
 
 
 def city_weather_info(weather)
+  return 
+  "The #{weather[2]} is #{weather[:city]}"
 end 
 
 def convert_temp(weather)
