@@ -8,14 +8,10 @@ weather = {
 def location(weather)
   return weather[:city]
 end
-location(weather)
-
 
 def description(weather)
   return weather[:description]
 end 
-description(weather)
-
 
 def weather_report(weather)
   return "The weather in #{location(weather)} is #{description(weather)}. The temperature is #{weather[:temperature_farenheit]} degrees Farenheit."
