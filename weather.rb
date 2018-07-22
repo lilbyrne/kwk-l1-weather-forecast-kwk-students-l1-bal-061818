@@ -4,6 +4,7 @@ weather = {
  	:description => "Partly Cloudy",
  	:temperature_farenheit => 66.3
 }
+
 def location(weather)
   return weather[:city]
 end
