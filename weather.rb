@@ -19,3 +19,8 @@ end
 
 
 def city_weather_info(weather)
+end 
+
+def convert_temp(weather)
+  return 
+end 
