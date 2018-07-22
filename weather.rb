@@ -22,5 +22,5 @@ def city_weather_info(weather)
 end 
 
 def convert_temp(weather)
-  return 
+  ((weather[:temperature_farenheit] - 32.0) * (5.0/9.0)).round(2)
 end 
